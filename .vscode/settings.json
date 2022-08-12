@@ -14,5 +14,4 @@
     "[ruby]": {
         "editor.formatOnSave": false
     },
-    "workbench.iconTheme": "vscode-great-icons"
 }

@@ -5,11 +5,14 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.1.2"
 
+gem "bootstrap-sass", "3.4.1"
+gem "config"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5"
 gem "net-smtp", "~> 0.3.1"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6"
+gem "rails-i18n"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
