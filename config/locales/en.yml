@@ -49,3 +49,22 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
+      create: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+      error: "Error has occured! Please check again"
+    show:
+      not_found: "Invalid User!"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
