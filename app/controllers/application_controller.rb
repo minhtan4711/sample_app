@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::Base
-  # function to set language before loading page
+  include SessionsHelper
+
   before_action :set_locale
   private
   def set_locale
