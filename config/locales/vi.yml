@@ -48,3 +48,22 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
+      create: "Tạo tài khoản"
+    create:
+      welcome: "Chào mừng đến với Sample App!"
+      error: "Có lỗi, xin vui lòng kiểm tra lại!"
+    show:
+      not_found: "Người dùng không tồn tại"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên đăng nhập"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+  shared:
+    error_messages:
+      intro: "Mục nhập thông tin có"
+      error: "lỗi"

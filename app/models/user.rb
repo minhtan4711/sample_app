@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+
+  USER_ATTRIBUTES = [:name, :email, :password, :password_confirmation].freeze
+  
   before_save{email.downcase!}
   validates(:name, presence: true, length: {maximum: Settings.validate.length_50})
   validates(:email, presence: true, length: {maximum: Settings.validate.length_255},
