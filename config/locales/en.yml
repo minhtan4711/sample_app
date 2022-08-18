@@ -79,6 +79,7 @@ en:
       login: "Log in"
       email: "Email"
       password: "Password"
+      remember_me: "Remember me on this computer"
     create:
       error: "Invalid email/password combination"
       success: "Login success!"
