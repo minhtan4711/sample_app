@@ -51,6 +51,8 @@ vi:
       book: "cuốn sách"
       tutor: "Hướng dẫn Ruby on Rails"
   users:
+    index:
+      title: "Tất cả người dùng"
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
@@ -60,6 +62,26 @@ vi:
       error: "Có lỗi, xin vui lòng kiểm tra lại!"
     show:
       not_found: "Người dùng không tồn tại"
+    edit:
+      title: "Chỉnh sửa thông tin người dùng"
+      intro: "Cập nhật thông tin người dùng"
+      save: "Lưu thay đổi"
+      not_login: "Vui lòng đăng nhập."
+      not_correct: "Người dùng không đúng."
+      not_found: "Người dùng không tồn tại"
+    update:
+      success: "Hồ sơ đã được cập nhật"
+      error: "Có lỗi đã xảy ra"
+      not_login: "Vui lòng đăng nhập."
+      not_correct: "Người dùng không đúng."
+      not_found: "Người dùng không tồn tại"
+    destroy:
+      success: "Người dùng đã bị xoá."
+      error: "Xoá người dùng thất bại"
+      not_found: "Người dùng không tồn tại"
+    user:
+      delete: "Xoá"
+      confirm : "Bạn có chắc chắn muốn xoá người dùng này không?"
   activerecord:
     models:
       user: "Người dùng"

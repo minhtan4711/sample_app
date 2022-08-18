@@ -5,15 +5,16 @@ class User < ApplicationRecord
 
   before_save{email.downcase!}
   validates(:name, presence: true,
-length: {maximum: Settings.validate.length_50})
+            length: {maximum: Settings.validate.length_50})
   validates(:email, presence: true,
             length: {maximum: Settings.validate.length_255},
             format: {with: Settings.regex.email},
             uniqueness: true)
   validates(:password, presence: true,
-length: {minimum: Settings.validate.length_6})
+            length: {minimum: Settings.validate.length_6},
+            allow_nil: true)
   has_secure_password
-  
+
   class << self
     def digest string
       cost = if ActiveModel::SecurePassword.min_cost

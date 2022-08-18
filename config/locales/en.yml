@@ -52,6 +52,8 @@ en:
       book: "book"
       tutor: "Ruby on Rails Tutorial"
   users:
+    index:
+      title: "All users"
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
@@ -61,6 +63,26 @@ en:
       error: "Error has occured! Please check again"
     show:
       not_found: "Invalid User!"
+    edit:
+      title: "Edit user"
+      intro: "Update your profile"
+      save: "Save changes"
+      not_login: "Please log in."
+      not_correct: "Not correct user"
+      not_found: "Invalid User!"
+    update:
+      success: "Profile Updated"
+      error: "Error has occured"
+      not_login: "Please log in."
+      not_correct: "Not correct user"
+      not_found: "Invalid User!"
+    destroy:
+      success: "User deleted"
+      error: "Delete user fail"
+      not_found: "Invalid User!"
+    user:
+      delete: "Delete"
+      confirm : "You sure?"
   activerecord:
     models:
       user: "User"
