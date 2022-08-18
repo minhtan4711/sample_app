@@ -8,6 +8,12 @@ vi:
       login: "Đăng nhập"
       vi: "Tiếng Việt"
       en: "Tiếng Anh"
+      user: "Người dùng"
+      profile: "Hồ sơ người dùng"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      login: "Đăng nhập"
+      account: "Tài khoản"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -67,3 +73,13 @@ vi:
     error_messages:
       intro: "Mục nhập thông tin có"
       error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+    create:
+      error: "Email hoặc mật khẩu không đúng"
+      success: "Đăng nhập thành công"
+    destroy:
+      success: "Đăng xuất thành công!"

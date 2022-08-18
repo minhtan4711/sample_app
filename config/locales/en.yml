@@ -9,6 +9,12 @@ en:
       login: "Log in"
       vi: "Vietnamese"
       en: "English"
+      user: "User"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
+      account: "Account"
     footer:
       about: "About"
       contact: "Contact"
@@ -68,3 +74,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+    create:
+      error: "Invalid email/password combination"
+      success: "Login success!"
+    destroy:
+      success: "Log out success!"
