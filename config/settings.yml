@@ -16,3 +16,9 @@ validate:
 
 regex:
   email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
+paginate:
+  per_page_10: 10
+
+gravatar:
+  size_80: 80
