@@ -60,6 +60,7 @@ vi:
     create:
       welcome: "Chào mừng đến với Sample App!"
       error: "Có lỗi, xin vui lòng kiểm tra lại!"
+      check_email: "Xin vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
     show:
       not_found: "Người dùng không tồn tại"
     edit:
@@ -104,5 +105,16 @@ vi:
     create:
       error: "Email hoặc mật khẩu không đúng"
       success: "Đăng nhập thành công"
+      account_not_activated: "Tài khoản chưa được kích hoạt. Hãy kiểm tra lại đường dẫn kích hoạt tài khoản."
     destroy:
       success: "Đăng xuất thành công!"
+  account_activation:
+    edit:
+      success: "Account activated"
+      error: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      account_activation: "Kích hoạt tài khoản"
+      welcome_to: "Chào mừng đến với Sample App. Bấm vào đường dẫn ở dưới để kích hoạt tài khoản của bạn."
+      activate: "Kích hoạt"
+      hi: "Xin chào"
