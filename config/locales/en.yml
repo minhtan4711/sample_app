@@ -61,6 +61,7 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       error: "Error has occured! Please check again"
+      check_email: "Please check your email to activate your account."
     show:
       not_found: "Invalid User!"
     edit:
@@ -105,5 +106,16 @@ en:
     create:
       error: "Invalid email/password combination"
       success: "Login success!"
+      account_not_activated: "Account not activated. Check your email for the activation link."
     destroy:
       success: "Log out success!"
+  account_activation:
+    edit:
+      success: "Account activated"
+      error: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
+      welcome_to: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"
