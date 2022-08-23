@@ -102,6 +102,7 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       remember_me: "Nhớ tôi trên thiết bị này"
+      forgot_password: "Quên mật khẩu"
     create:
       error: "Email hoặc mật khẩu không đúng"
       success: "Đăng nhập thành công"
@@ -118,3 +119,35 @@ vi:
       welcome_to: "Chào mừng đến với Sample App. Bấm vào đường dẫn ở dưới để kích hoạt tài khoản của bạn."
       activate: "Kích hoạt"
       hi: "Xin chào"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
+      click: "Để đặt lại mật khẩu vui lòng bấm vào đường dẫn bên dưới:"
+      link: "Đặt lại mật khẩu"
+      password_reset_content: "Liên kết này sẽ hết hạn trong hai giờ.
+        Nếu bạn không yêu cầu mật khẩu của mình được đặt lại,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      intro: "Quên mật khẩu"
+      submit: "Đặt lại mật khẩu"
+      email: "Email"
+    create:
+      info: "Email hướng dẫn đặt lại mật khẩu đã được gửi đi."
+      email_not_found: "Không tìm thấy địa chỉ mail."
+    edit:
+      title: "Đặt lại mật khẩu"
+      intro: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật khẩu"
+      exprired : "Đặt lại mật khẩu đã hết hạn."
+      email_not_found: "Không tìm thấy tài khoản email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      alert_user: "Tài khoản chưa được kích hoạt hoặc phiên đặt lại mật khẩu đã hết hạn"
+    update:
+      cant_be_empty: "Không thể để trống"
+      success: "Mật khẩu đã được đặt lại."
+      exprired : "Đặt lại mật khẩu đã hết hạn."
+      email_not_found: "Không tìm thấy tài khoản email"
+      alert_user: "Tài khoản chưa được kích hoạt hoặc phiên đặt lại mật khẩu đã hết hạn"

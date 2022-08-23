@@ -22,3 +22,6 @@ paginate:
 
 gravatar:
   size_80: 80
+
+password_reset:
+  expired: 2

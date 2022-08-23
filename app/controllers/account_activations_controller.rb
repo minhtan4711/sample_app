@@ -9,5 +9,6 @@ class AccountActivationsController < ApplicationController
     else
       flash[:danger] = t(".error")
       redirect_to root_url
+    end
   end
 end
