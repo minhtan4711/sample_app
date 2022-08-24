@@ -27,6 +27,6 @@ class SessionsController < ApplicationController
     else
       flash[:warning] = t(".account_not_activated")
       redirect_to root_path
+    end
   end
-
 end
