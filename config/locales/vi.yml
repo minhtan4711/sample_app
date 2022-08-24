@@ -53,6 +53,7 @@ vi:
   users:
     index:
       title: "Tất cả người dùng"
+      not_login: "Vui lòng đăng nhập."
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
@@ -62,6 +63,7 @@ vi:
       error: "Có lỗi, xin vui lòng kiểm tra lại!"
       check_email: "Xin vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
     show:
+      not_login: "Vui lòng đăng nhập."
       not_found: "Người dùng không tồn tại"
     edit:
       title: "Chỉnh sửa thông tin người dùng"
@@ -92,10 +94,24 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "Phải đúng định dạng ảnh"
+              too_big: "Kích cỡ ảnh quá lớn"
   shared:
     error_messages:
       intro: "Mục nhập thông tin có"
       error: "lỗi"
+    micropost_form:
+      new_micropost: "Soạn nội dung mới..."
+      post: "Đăng"
+      large_img_error: "Kích cỡ lớn nhất cho phép là 5MB. Vui lòng chọn ảnh dung lượng nhỏ hơn"
+    user_info:
+      view_my_profile: "Xem tài khoản của tôi"
+      micropost: "Bài đăng"
   sessions:
     new:
       login: "Đăng nhập"
@@ -151,3 +167,17 @@ vi:
       exprired : "Đặt lại mật khẩu đã hết hạn."
       email_not_found: "Không tìm thấy tài khoản email"
       alert_user: "Tài khoản chưa được kích hoạt hoặc phiên đặt lại mật khẩu đã hết hạn"
+  microposts:
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước."
+      delete: "Xoá"
+      you_sure: "Bạn chắc chứ?"
+    find_micropost:
+      find_micropost_fail: "Không thể tìm thấy micropost"
+    create:
+      success: "Tạo post thành công"
+      error: "Tạo post thất bại"
+    destroy:
+      success: "Xoá post thành công"
+      error: "Xoá post không thành công"

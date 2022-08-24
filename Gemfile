@@ -7,6 +7,9 @@ ruby "3.1.2"
 
 gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "3.4.1"
+gem "active_storage_validations"
+gem "image_processing", "1.12.2"
+gem "mini_magick"
 gem "config"
 gem "figaro"
 gem "faker", "2.22.0"
@@ -24,6 +27,7 @@ gem "webpacker", "~> 5.0"
 gem "bootsnap", ">= 1.4.4", require: false
 
 group :development, :test do
+  gem "pry-rails"
   gem "byebug", platforms: %i(mri mingw x64_mingw)
   gem "rubocop", "~> 1.26", require: false
   gem "rubocop-checkstyle_formatter", require: false

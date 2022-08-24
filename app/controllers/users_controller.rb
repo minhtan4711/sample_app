@@ -12,7 +12,19 @@ class UsersController < ApplicationController
     )
   end
 
-  def show; end
+  def show
+    @user = User.find_by id: params[:id]
+    if @user
+      @pagy, @microposts = pagy(
+      @user.microposts,
+      page: params[:page],
+      items: Settings.paginate.per_page_10
+      )
+    else
+      flash[:danger] = t ".not_found"
+      redirect_to root_path
+    end
+  end
 
   def new
     @user = User.new
@@ -64,15 +76,8 @@ class UsersController < ApplicationController
     params.require(:user).permit User::USER_ATTRIBUTES
   end
 
-  def logged_in_user
-    return unless logged_in?
-    store_location
-    flash[:danger] = t(".not_login")
-    redirect_to login_path
-  end
-
   def correct_user
-    return unless current_user? @user
+    return if current_user? @user
     flash[:danger] = t(".not_correct")
     redirect_to root_path
   end

@@ -54,6 +54,7 @@ en:
   users:
     index:
       title: "All users"
+      not_login: "Please log in."
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
@@ -63,6 +64,7 @@ en:
       error: "Error has occured! Please check again"
       check_email: "Please check your email to activate your account."
     show:
+      not_login: "Please log in."
       not_found: "Invalid User!"
     edit:
       title: "Edit user"
@@ -93,10 +95,24 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password Confirmation"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              wrong_format: "Must be a valid image format"
+              too_big: "Image size is too big"
   shared:
     error_messages:
       intro: "The form contains"
       error: "error"
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
   sessions:
     new:
       login: "Log in"
@@ -153,3 +169,17 @@ en:
       exprired : "Password reset has expired."
       email_not_found: "Email not found"
       alert_user: "The account has not been activated or the password reset time has expired"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      you_sure: "You sure?"
+    find_micropost:
+      find_micropost_fail: "Cannot find micropost"
+    create:
+      success: "Micropost create successful"
+      error: "Micropost create failed"
+    destroy:
+      success: "Delete micropost successful"
+      error: "Delelte micropost failed"
