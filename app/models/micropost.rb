@@ -10,6 +10,8 @@ class Micropost < ApplicationRecord
                     size:         { less_than: Settings.micropost.image_size.megabytes,
                                     message: :too_big }
 
+  scope :by_user_ids, ->(user_ids){where user_id: user_ids}
+
   def display_image
     image.variant(resize_to_limit: Settings.micropost.resize_to_limit)
   end
