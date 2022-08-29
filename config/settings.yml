@@ -13,6 +13,7 @@ validate:
   length_50: 50
   length_255: 255
   length_6: 6
+  length_140: 140
 
 regex:
   email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
@@ -25,3 +26,9 @@ gravatar:
 
 password_reset:
   expired: 2
+
+micropost:
+  type_allow: ["image/jpeg", "image/gif", "image/png"]
+  image_size: 5
+  resize_to_limit: [500, 500]
+  accept_path: "image/jpeg,image/gif,image/png"
