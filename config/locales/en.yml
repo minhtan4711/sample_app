@@ -83,6 +83,20 @@ en:
       success: "User deleted"
       error: "Delete user fail"
       not_found: "Invalid User!"
+    stats:
+      following: "following"
+      followers: "followers"
+    follow_form:
+      unfollow: "unfollow"
+      follow: "follow"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
     user:
       delete: "Delete"
       confirm : "You sure?"
@@ -113,6 +127,9 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"

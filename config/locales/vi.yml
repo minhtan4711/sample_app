@@ -82,6 +82,20 @@ vi:
       success: "Người dùng đã bị xoá."
       error: "Xoá người dùng thất bại"
       not_found: "Người dùng không tồn tại"
+    stats:
+      following: "following"
+      followers: "followers"
+    follow_form:
+      unfollow: "Huỷ theo dõi"
+      follow: "Theo dõi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Huỷ theo dõi"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
     user:
       delete: "Xoá"
       confirm : "Bạn có chắc chắn muốn xoá người dùng này không?"
@@ -112,6 +126,9 @@ vi:
     user_info:
       view_my_profile: "Xem tài khoản của tôi"
       micropost: "Bài đăng"
+    stats:
+      following: "người đang theo dõi"
+      followers: "người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"
